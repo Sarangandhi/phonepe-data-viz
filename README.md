@@ -41,7 +41,7 @@ To use this project, follow these steps:
 
 1. Clone the repository: ```git clone https://github.com/Sarangandhi/phonepe-data-viz```
 2. Install the required packages: ```pip install -r requirements.txt```
-3. Run the Streamlit app: ```streamlit run app.py```
+3. Run the Streamlit app: ```streamlit run functions/start_streamlit.py```
 4. Access the app in your browser at ```http://localhost:8501```
 
 ## Features
