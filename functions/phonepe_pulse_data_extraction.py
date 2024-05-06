@@ -566,7 +566,7 @@ def extract_top_insurance_country_data(country_directory):
 
 
 def process_extract_top_insurance_country_data():
-    dir_path = "/home/saranrajgandhi/Guvi_Capestone_Projects/Phonepe_Pulse_Data_Visualization/phonepe_data_visualization/phonepe-data-viz/data/top/insurance/country/india"
+    dir_path = "data/top/insurance/country/india"
     all_directories = [os.path.join(dir_path, d) for d in os.listdir(dir_path) if os.path.isdir(os.path.join(dir_path, d)) and d != 'state']
     data = extract_top_insurance_country_data(all_directories)
     return data
@@ -610,7 +610,7 @@ def extract_top_insurance_state_data(country_directory):
 
 
 def process_extract_top_insurance_state_data():
-    country_directory = "/home/saranrajgandhi/Guvi_Capestone_Projects/Phonepe_Pulse_Data_Visualization/phonepe_data_visualization/phonepe-data-viz/data/top/insurance/country/india/state"
+    country_directory = "data/top/insurance/country/india/state"
     data = extract_top_insurance_state_data(country_directory)
     return data
 
@@ -643,7 +643,7 @@ def extract_top_transaction_country_data(country_directory):
 
 
 def process_extract_top_transaction_country_data():
-    dir_path = "/home/saranrajgandhi/Guvi_Capestone_Projects/Phonepe_Pulse_Data_Visualization/phonepe_data_visualization/phonepe-data-viz/data/top/transaction/country/india"
+    dir_path = "data/top/transaction/country/india"
     all_directories = [os.path.join(dir_path, d) for d in os.listdir(dir_path) if
                        os.path.isdir(os.path.join(dir_path, d)) and d != 'state']
     data = extract_top_transaction_country_data(all_directories)
@@ -688,7 +688,7 @@ def extract_top_transaction_state_data(country_directory):
 
 
 def process_extract_top_transaction_state_data():
-    country_directory = "/home/saranrajgandhi/Guvi_Capestone_Projects/Phonepe_Pulse_Data_Visualization/phonepe_data_visualization/phonepe-data-viz/data/top/transaction/country/india/state"
+    country_directory = "data/top/transaction/country/india/state"
     data = extract_top_transaction_state_data(country_directory)
     return data
 
@@ -722,7 +722,7 @@ def extract_to_user_country_data(country_directory):
 
 
 def process_extract_top_user__country_data():
-    dir_path = "/home/saranrajgandhi/Guvi_Capestone_Projects/Phonepe_Pulse_Data_Visualization/phonepe_data_visualization/phonepe-data-viz/data/top/user/country/india"
+    dir_path = "data/top/user/country/india"
     all_directories = [os.path.join(dir_path, d) for d in os.listdir(dir_path) if os.path.isdir(os.path.join(dir_path, d)) and d != 'state']
     data = extract_to_user_country_data(all_directories)
     return data
@@ -761,7 +761,7 @@ def extract_top_user_state_data(country_directory):
 
 
 def process_extract_top_user_state_data():
-    country_directory = "/home/saranrajgandhi/Guvi_Capestone_Projects/Phonepe_Pulse_Data_Visualization/phonepe_data_visualization/phonepe-data-viz/data/top/user/country/india/state"
+    country_directory = "data/top/user/country/india"
     data = extract_top_insurance_state_data(country_directory)
     return data
 

@@ -7,10 +7,10 @@ import plotly.graph_objects as go
 
 # -- importing all the Phonepe pulse data
 config = {
-    'user': 'root',
-    'password': 'password',
-    'host': 'localhost',
-    'database': 'phonepe_data_viz',
+    'user': 'your_user_name',
+    'password': 'your_password',
+    'host': 'your_hostname',
+    'database': 'your_database_name',
     'port': '3306'  # Default MySQL port
 }
 
